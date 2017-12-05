@@ -57,7 +57,11 @@ public class AboutOperator {
         //9 47
         System.out.println("1: n1.i: " + n1.i + ", n2.i: " + n2.i);
         //47 47
+        System.out.println("n1的地址是："+n1);
+        System.out.println("n2的地址是："+n2);
         n1 = n2;
+        System.out.println("现在n1的地址是："+n1);
+        System.out.println("现在n2的地址是："+n2);
         //此时n1对象会被垃圾收集器自动清除：这种现象通常叫做“别名”12章将会详细说明
         System.out.println("2: n1.i: " + n1.i + ", n2.i: " + n2.i);
         //27 27
